@@ -8,8 +8,8 @@ import Home from "./pages/Home"
 import About from "./pages/About"
 import Projects from "./pages/Projects"
 
-function App() {
-  const URL = 'http://localhost:4000/';
+const App= () => {
+  const URL = 'https://express-and-react-backend-db.herokuapp.com/';
 
   return (
     <div className="App">
