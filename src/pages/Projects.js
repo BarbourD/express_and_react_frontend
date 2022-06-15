@@ -12,7 +12,7 @@ useEffect(() => {getProjectsData()}, []);
 
 const loaded = () => {
     return projects.map((project) => (
-        <div>
+        <div className="projects">
             <h1>{project.name}</h1>
             <img src={project.image} />
             <a href={project.git}>
